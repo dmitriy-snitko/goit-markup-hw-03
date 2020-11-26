@@ -1,0 +1,123 @@
+:root {
+  --primery-light-color: #ffffff;
+  --primery-text-color: #757575;
+  --titels-color: #212121;
+  --accent-color: #2196f3;
+  --secondary-bg-color: #f5f4fa;
+  --dark-bg-color: #2f303a;
+  --footer-link-color: rgba(255, 255, 255, 0.6);
+
+  --primeri-text-family: 'Roboto', sans-serif;
+  --logo-font-family: 'Raleway', sans-serif;
+}
+
+body {
+  font-family: var(--primeri-text-family);
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+
+  color: var(--primery-text-color);
+}
+
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+/* COMPONENTS */
+.logo {
+  font-family: var(--logo-font-family);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.192;
+
+  color: #000000;
+}
+
+.logo-accent {
+  color: var(--accent-color);
+}
+
+.modal-button {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.875;
+  letter-spacing: 0.06em;
+
+  color: var(--primery-light-color);
+  background-color: var(--accent-color);
+}
+
+.title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.166;
+  text-align: center;
+
+  color: var(--titels-color);
+}
+
+/* HEADER */
+
+.header {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.02em;
+}
+
+.navigation-list-link {
+  color: var(--titels-color);
+}
+
+.header-contakts-list-link {
+  font-style: normal;
+  color: var(--primery-text-color);
+}
+
+.navigation-list-link.current,
+.navigation-list-link:hover,
+.navigation-list-link:focus,
+.header-contakts-list-link:hover,
+.header-contakts-list-link:focus {
+  color: var(--accent-color);
+}
+
+/* FOOTER */
+
+.footer {
+  background-color: var(--dark-bg-color);
+}
+
+.footer > .logo {
+  color: var(--primery-light-color);
+}
+
+.footer-contacts-address {
+  font-style: normal;
+  color: var(--primery-light-color);
+}
+
+.footer-contacts-list-link {
+  font-style: normal;
+  color: var(--footer-link-color);
+}

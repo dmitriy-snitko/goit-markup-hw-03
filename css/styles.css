@@ -1,0 +1,76 @@
+/* HERO */
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.363;
+  letter-spacing: 0.06em;
+
+  text-align: center;
+  text-transform: uppercase;
+
+  color: var(--primery-light-color);
+  background-color: var(--dark-bg-color);
+}
+
+/* ADVANTAGES */
+
+.advantages-list-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.143;
+  text-transform: uppercase;
+
+  color: var(--titels-color);
+}
+
+/* TEAM */
+
+.team {
+  font-size: 16px;
+  line-height: 1.187;
+
+  background-color: var(--secondary-bg-color);
+}
+
+.team-list-title {
+  font-weight: 500;
+  font-size: inherit;
+  color: var(--titels-color);
+}
+
+/* PORTFOLIO */
+
+.portfolio-filter-btn {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.625;
+  letter-spacing: 0.03em;
+
+  color: var(--titels-color);
+  background-color: var(--secondary-bg-color);
+}
+
+.portfolio-filter-btn.current,
+.portfolio-filter-btn:hover,
+.portfolio-filter-btn:focus {
+  color: var(--primery-light-color);
+  background-color: var(--accent-color);
+}
+
+.portfolio-list-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+
+  color: var(--titels-color);
+}
+
+.portfolio-list-text {
+  font-size: 16px;
+  line-height: 1.875;
+
+  color: var(--primery-text-color);
+}

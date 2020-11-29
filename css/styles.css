@@ -31,7 +31,7 @@
 }
 
 .advantages-list-item {
-  width: 25%;
+  width: var(--four-columns);
 }
 
 .advantages-list-item:not(:first-child) {
@@ -55,6 +55,10 @@
   display: flex;
 }
 
+.about-list-item {
+  width: var(--three-columns);
+}
+
 .about-list-item:not(:first-child) {
   margin-left: 30px;
 }
@@ -73,6 +77,7 @@
 }
 
 .team-list-item {
+  width: var(--four-columns);
   border-radius: 0px 0px 4px 4px;
 
   background-color: var(--primery-light-color);
@@ -142,6 +147,10 @@
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
+}
+
+.portfolio-list-item {
+  width: var(--three-columns);
 }
 
 .portfolio-list-item:not(:nth-child(3n + 1)) {

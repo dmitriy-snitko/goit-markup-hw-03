@@ -11,6 +11,9 @@
 
   --primeri-text-family: 'Roboto', sans-serif;
   --logo-font-family: 'Raleway', sans-serif;
+
+  --three-columns: calc((100% - 60px) / 3);
+  --four-columns: calc((100% - 90px) / 4);
 }
 
 body {

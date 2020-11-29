@@ -95,6 +95,10 @@ img {
   color: var(--accent-color);
 }
 
+.logo.inverse {
+  color: var(--primery-light-color);
+}
+
 .modal-button {
   border-style: none;
   border-radius: 4px;
@@ -195,10 +199,8 @@ img {
   background-color: var(--dark-bg-color);
 }
 
-.footer .logo {
-  display: block;
-  margin-bottom: 20px;
-  color: var(--primery-light-color);
+.footer-contacts {
+  margin-top: 20px;
 }
 
 .footer-contacts-address {

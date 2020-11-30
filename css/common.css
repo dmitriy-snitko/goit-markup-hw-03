@@ -211,8 +211,12 @@ img {
   color: var(--primery-light-color);
 }
 
-.footer-contacts-list-item {
-  margin-top: 9px;
+.footer-contacts-list-item:not(:last-child) {
+  margin-bottom: 9px;
+}
+
+.footer-contacts-address {
+  margin-bottom: 9px;
 }
 
 .footer-contacts-list-link {
